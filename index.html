@@ -10,20 +10,21 @@
 <body>
     <div class="container">
         <div class="to-do-body">
-            <h1>To-Do list  </h1>
+            <h1>To-Do list</h1>
             
             <form class="input-area">
-                <input type="text" id="task-input" placeholder="Add a new task..." style="margin-left: 10px;">
-                <button type="submit">
-                    <div class="add-button">ADD</div>
+                <input  type="text" id="task-input" placeholder="Add a new task..." style="margin-left: 10px;">
+                <button type="submit" onclick="addTask(event)">
+                    <!-- on click the task will be added to the list and the input field will be cleared -->
+                    Add
                 </button>
             </form>
             <div class="todos-content">
                 <ul id="task-list"></ul>
-                <img src="./empty_image.webp" alt="empty" class="empty-image">
+                <!-- <img src="./empty_image.webp" alt="empty" class="empty-image"> -->
             </div>
             </div>
         </div>
-   
+        <script src="script.js"></script>
 </body>
 </html>
