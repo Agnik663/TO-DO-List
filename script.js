@@ -18,7 +18,7 @@ function addTask(event){
 
     // create delete button
     const deleteButton = document.createElement("button");
-    deleteButton.textContent =  "Remove";
+    deleteButton.textContent =  "Clear";
     deleteButton.classList.add("delete-button");
     deleteButton.style.marginLeft = "10px";
     deleteButton.style.backgroundColor = "#ff4d4d";
